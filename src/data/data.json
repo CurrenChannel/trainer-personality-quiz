@@ -1,0 +1,2429 @@
+[
+	{
+		"name": "Special Week",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"protagonist",
+			"spica",
+			"pure",
+			"glutton",
+			"meme"
+		]
+	},
+	{
+		"name": "Silence Suzuka",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"protagonist",
+			"meme",
+			"spica",
+			"oonige"
+		]
+	},
+	{
+		"name": "Tokai Teio",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"protagonist",
+			"meme",
+			"basic",
+			"spica",
+			"royal",
+			"loud",
+			"brat"
+		]
+	},
+	{
+		"name": "Maruzensky",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"short",
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf",
+			"dirt"
+		],
+		"tags": [
+			"meta",
+			"parent",
+			"hag",
+			"melons",
+			"rigil"
+		]
+	},
+	{
+		"name": "Fuji Kiseki",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"short",
+			"mile"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"rigil",
+			"charmer"
+		]
+	},
+	{
+		"name": "Oguri Cap",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf",
+			"dirt"
+		],
+		"tags": [
+			"meta",
+			"parent",
+			"protagonist",
+			"basic",
+			"rigil",
+			"glutton"
+		]
+	},
+	{
+		"name": "Gold Ship",
+		"sex": "stallion",
+		"running_style": 3,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meme",
+			"basic",
+			"spica",
+			"troublemaker",
+			"eccentric"
+		]
+	},
+	{
+		"name": "Vodka",
+		"sex": "mare",
+		"running_style": 2,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"tomboy",
+			"spica",
+			"athletic"
+		]
+	},
+	{
+		"name": "Daiwa Scarlet",
+		"sex": "mare",
+		"running_style": 0,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"melons",
+			"spica",
+			"tsundere"
+		]
+	},
+	{
+		"name": "Taiki Shuttle",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"short",
+			"mile"
+		],
+		"terrain": [
+			"turf",
+			"dirt"
+		],
+		"tags": [
+			"parent",
+			"melons",
+			"rigil",
+			"foreign"
+		]
+	},
+	{
+		"name": "Grass Wonder",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"mile",
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"rigil",
+			"foreign",
+			"sly",
+			"brat",
+			"traditional",
+			"debuffer",
+			"glutton"
+		]
+	},
+	{
+		"name": "Hishi Amazon",
+		"sex": "mare",
+		"running_style": 3,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"rigil",
+			"tomboy",
+			"buff"
+		]
+	},
+	{
+		"name": "Mejiro McQueen",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meme",
+			"mejiro",
+			"spica",
+			"royal",
+			"glutton"
+		]
+	},
+	{
+		"name": "El Condor Pasa",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"mile",
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf",
+			"dirt"
+		],
+		"tags": [
+			"parent",
+			"foreign",
+			"athletic"
+		]
+	},
+	{
+		"name": "T.M. Opera O",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"parent",
+			"basic",
+			"rigil",
+			"chuuni"
+		]
+	},
+	{
+		"name": "Narita Brian",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meta",
+			"stoic",
+			"rigil",
+			"solitary"
+		]
+	},
+	{
+		"name": "Symboli Rudolf",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"parent",
+			"dom",
+			"rigil",
+			"royal",
+			"comedy",
+			"debuffer"
+		]
+	},
+	{
+		"name": "Air Groove",
+		"sex": "mare",
+		"running_style": 2,
+		"distances": [
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"hag",
+			"dom",
+			"rigil",
+			"royal",
+			"blunt"
+		]
+	},
+	{
+		"name": "Agnes Digital",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf",
+			"dirt"
+		],
+		"tags": [
+			"basic",
+			"loli",
+			"affectionate"
+		]
+	},
+	{
+		"name": "Seiun Sky",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"parent",
+			"sly",
+			"solitary"
+		]
+	},
+	{
+		"name": "Tamamo Cross",
+		"sex": "stallion",
+		"running_style": 3,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"short",
+			"comedy",
+			"glutton"
+		]
+	},
+	{
+		"name": "Fine Motion",
+		"sex": "mare",
+		"running_style": 1,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"royal",
+			"foreign",
+			"brat",
+			"glutton"
+		]
+	},
+	{
+		"name": "Biwa Hayahide",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"melons",
+			"glasses"
+		]
+	},
+	{
+		"name": "Mayano Top Gun",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"daughter",
+			"brat",
+			"loli",
+			"fashion",
+			"affectionate"
+		]
+	},
+	{
+		"name": "Manhattan Cafe",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"basic",
+			"shy",
+			"solitary",
+			"debuffer",
+			"meme"
+		]
+	},
+	{
+		"name": "Mihono Bourbon",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meta",
+			"parent",
+			"melons",
+			"stoic",
+			"affectionate"
+		]
+	},
+	{
+		"name": "Mejiro Ryan",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"parent",
+			"tomboy",
+			"mejiro",
+			"buff"
+		]
+	},
+	{
+		"name": "Hishi Akebono",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"short",
+			"mile"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"melons",
+			"friend",
+			"affectionate",
+			"glutton"
+		]
+	},
+	{
+		"name": "Yukino Bijin",
+		"sex": "mare",
+		"running_style": 1,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf",
+			"dirt"
+		],
+		"tags": [
+			"pure",
+			"friend",
+			"fashion",
+			"caring"
+		]
+	},
+	{
+		"name": "Rice Shower",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"basic",
+			"daughter",
+			"shy",
+			"affectionate",
+			"glutton"
+		]
+	},
+	{
+		"name": "Ines Fujin",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"athletic",
+			"friend"
+		]
+	},
+	{
+		"name": "Agnes Tachyon",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meme",
+			"basic",
+			"troublemaker",
+			"sly",
+			"debuffer",
+			"chuuni"
+		]
+	},
+	{
+		"name": "Admire Vega",
+		"sex": "stallion",
+		"running_style": 3,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"stoic",
+			"solitary",
+			"tsundere",
+			"shy",
+			"affectionate"
+		]
+	},
+	{
+		"name": "Inari One",
+		"sex": "stallion",
+		"running_style": 3,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf",
+			"dirt"
+		],
+		"tags": [
+			"tomboy",
+			"comedy",
+			"hag",
+			"traditional"
+		]
+	},
+	{
+		"name": "Winning Ticket",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"loud",
+			"daughter",
+			"athletic"
+		]
+	},
+	{
+		"name": "Air Shakur",
+		"sex": "stallion",
+		"running_style": 3,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"tsundere",
+			"solitary"
+		]
+	},
+	{
+		"name": "Eishin Flash",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"melons",
+			"foreign",
+			"shy"
+		]
+	},
+	{
+		"name": "Curren Chan",
+		"sex": "mare",
+		"running_style": 1,
+		"distances": [
+			"short"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"celebrity",
+			"brat",
+			"fashion",
+			"affectionate"
+		]
+	},
+	{
+		"name": "Kawakami Princess",
+		"sex": "mare",
+		"running_style": 2,
+		"distances": [
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"royal",
+			"brat",
+			"gap",
+			"buff"
+		]
+	},
+	{
+		"name": "Gold City",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"celebrity",
+			"gyaru",
+			"fashion"
+		]
+	},
+	{
+		"name": "Sakura Bakushin O",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"short"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meme",
+			"comedy",
+			"stupid"
+		]
+	},
+	{
+		"name": "Seeking the Pearl",
+		"sex": "mare",
+		"running_style": 1,
+		"distances": [
+			"short",
+			"mile"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"foreign"
+		]
+	},
+	{
+		"name": "Shinko Windy",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"mile"
+		],
+		"terrain": [
+			"dirt"
+		],
+		"tags": [
+			"troublemaker",
+			"brat",
+			"tomboy",
+			"chuuni",
+			"eccentric"
+		]
+	},
+	{
+		"name": "Sweep Tosho",
+		"sex": "mare",
+		"running_style": 3,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"loli",
+			"brat",
+			"tsundere",
+			"hat",
+			"chuuni",
+			"short"
+		]
+	},
+	{
+		"name": "Super Creek",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"melons",
+			"hag",
+			"traditional",
+			"caring",
+			"affectionate"
+		]
+	},
+	{
+		"name": "Smart Falcon",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"dirt"
+		],
+		"tags": [
+			"celebrity",
+			"blunt",
+			"fashion"
+		]
+	},
+	{
+		"name": "Zenno Rob Roy",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"melons",
+			"shy",
+			"glasses"
+		]
+	},
+	{
+		"name": "Tosen Jordan",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"gyaru",
+			"fashion"
+		]
+	},
+	{
+		"name": "Nakayama Festa",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"troublemaker",
+			"solitary",
+			"hat"
+		]
+	},
+	{
+		"name": "Narita Taishin",
+		"sex": "stallion",
+		"running_style": 3,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"tsundere",
+			"solitary"
+		]
+	},
+	{
+		"name": "Nishino Flower",
+		"sex": "mare",
+		"running_style": 1,
+		"distances": [
+			"short",
+			"mile"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"parent",
+			"loli",
+			"daughter",
+			"pure",
+			"short"
+		]
+	},
+	{
+		"name": "Haru Urara",
+		"sex": "mare",
+		"running_style": 2,
+		"distances": [
+			"short"
+		],
+		"terrain": [
+			"dirt"
+		],
+		"tags": [
+			"loli",
+			"meme",
+			"basic",
+			"daughter",
+			"pure"
+		]
+	},
+	{
+		"name": "Bamboo Memory",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"short",
+			"mile"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"tomboy",
+			"athletic"
+		]
+	},
+	{
+		"name": "Biko Pegasus",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"short"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"short",
+			"tomboy",
+			"loud",
+			"chuuni",
+			"buff"
+		]
+	},
+	{
+		"name": "Marvelous Sunday",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meme",
+			"melons",
+			"comedy",
+			"loli",
+			"airhead",
+			"eccentric"
+		]
+	},
+	{
+		"name": "Matikanefukukitaru",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"comedy",
+			"loud"
+		]
+	},
+	{
+		"name": "Mr. C.B.",
+		"sex": "stallion",
+		"running_style": 3,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"celebrity",
+			"hat",
+			"charmer"
+		]
+	},
+	{
+		"name": "Meisho Doto",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"basic",
+			"melons",
+			"pure"
+		]
+	},
+	{
+		"name": "Mejiro Dober",
+		"sex": "mare",
+		"running_style": 2,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"mejiro",
+			"shy",
+			"parent",
+			"tsundere"
+		]
+	},
+	{
+		"name": "Nice Nature",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"canopus",
+			"sly",
+			"brat",
+			"friend",
+			"debuffer",
+			"caring"
+		]
+	},
+	{
+		"name": "King Halo",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"short",
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"royal",
+			"gap",
+			"friend"
+		]
+	},
+	{
+		"name": "Matikanetannhauser",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meme",
+			"canopus",
+			"friend",
+			"airhead",
+			"comedy",
+			"pure",
+			"hat"
+		]
+	},
+	{
+		"name": "Ikuno Dictus",
+		"sex": "mare",
+		"running_style": 2,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"canopus",
+			"glasses",
+			"blunt"
+		]
+	},
+	{
+		"name": "Mejiro Palmer",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"mejiro",
+			"gyaru",
+			"oonige",
+			"charmer"
+		]
+	},
+	{
+		"name": "Daitaku Helios",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"gyaru",
+			"stupid",
+			"oonige",
+			"charmer"
+		]
+	},
+	{
+		"name": "Twin Turbo",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meme",
+			"canopus",
+			"tomboy",
+			"loud",
+			"oonige",
+			"short"
+		]
+	},
+	{
+		"name": "Satono Diamond",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"royal",
+			"meme"
+		]
+	},
+	{
+		"name": "Kitasan Black",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meta",
+			"parent",
+			"protagonist",
+			"meme"
+		]
+	},
+	{
+		"name": "Sakura Chiyono O",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meme",
+			"airhead",
+			"traditional"
+		]
+	},
+	{
+		"name": "Sirius Symboli",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"dom",
+			"charmer"
+		]
+	},
+	{
+		"name": "Mejiro Ardan",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"mejiro",
+			"royal",
+			"traditional"
+		]
+	},
+	{
+		"name": "Yaeno Muteki",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"tomboy",
+			"athletic"
+		]
+	},
+	{
+		"name": "Tsurumaru Tsuyoshi",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"airhead",
+			"stupid",
+			"comedy",
+			"loud"
+		]
+	},
+	{
+		"name": "Mejiro Bright",
+		"sex": "stallion",
+		"running_style": 3,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"mejiro",
+			"airhead"
+		]
+	},
+	{
+		"name": "Daring Tact",
+		"sex": "mare",
+		"running_style": 2,
+		"distances": [
+			"mile",
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"fashion",
+			"rigil"
+		]
+	},
+	{
+		"name": "Sakura Laurel",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meta",
+			"protagonist"
+		]
+	},
+	{
+		"name": "Narita Top Road",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"protagonist",
+			"shy"
+		]
+	},
+	{
+		"name": "Yamanin Zephyr",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"short",
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"melons"
+		]
+	},
+	{
+		"name": "Furioso",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"dirt"
+		],
+		"tags": [
+			"passionate"
+		]
+	},
+	{
+		"name": "Transcend",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"dirt"
+		],
+		"tags": [
+			"glasses",
+			"smart"
+		]
+	},
+	{
+		"name": "Espoir City",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"dirt"
+		],
+		"tags": [
+			"gyaru",
+			"tsundere",
+			"gap"
+		]
+	},
+	{
+		"name": "North Flight",
+		"sex": "mare",
+		"running_style": 1,
+		"distances": [
+			"short",
+			"mile"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"hat"
+		]
+	},
+	{
+		"name": "Symboli Kris S",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"foreign",
+			"shy",
+			"gap"
+		]
+	},
+	{
+		"name": "Tanino Gimlet",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"troublemaker",
+			"tomboy",
+			"chuuni"
+		]
+	},
+	{
+		"name": "Daiichi Ruby",
+		"sex": "mare",
+		"running_style": 2,
+		"distances": [
+			"short",
+			"mile"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meta",
+			"royal",
+			"stoic",
+			"affectionate",
+			"blunt"
+		]
+	},
+	{
+		"name": "Mejiro Ramonu",
+		"sex": "mare",
+		"running_style": 1,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"hag",
+			"mejiro",
+			"melons",
+			"solitary"
+		]
+	},
+	{
+		"name": "Aston Machan",
+		"sex": "mare",
+		"running_style": 0,
+		"distances": [
+			"short"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"celebrity",
+			"melons",
+			"airhead"
+		]
+	},
+	{
+		"name": "Satono Crown",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"pure",
+			"royal",
+			"friend"
+		]
+	},
+	{
+		"name": "Cheval Grand",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"tomboy",
+			"shy"
+		]
+	},
+	{
+		"name": "Verxina",
+		"sex": "mare",
+		"running_style": 0,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"celebrity",
+			"royal"
+		]
+	},
+	{
+		"name": "Vivlos",
+		"sex": "mare",
+		"running_style": 2,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"celebrity",
+			"loli",
+			"brat",
+			"charmer",
+			"fashion"
+		]
+	},
+	{
+		"name": "Dantsu Flame",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"tomboy"
+		]
+	},
+	{
+		"name": "K.S.Miracle",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"short",
+			"mile"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"tomboy",
+			"charmer"
+		]
+	},
+	{
+		"name": "Jungle Pocket",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meta",
+			"protagonist",
+			"buff",
+			"tomboy"
+		]
+	},
+	{
+		"name": "Believe",
+		"sex": "mare",
+		"running_style": 1,
+		"distances": [
+			"short"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"stoic",
+			"serious",
+			"solitary"
+		]
+	},
+	{
+		"name": "No Reason",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"chuuni",
+			"eccentric"
+		]
+	},
+	{
+		"name": "Still in Love",
+		"sex": "mare",
+		"running_style": 2,
+		"distances": [
+			"mile",
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meta",	
+			"dom",
+			"gap",
+			"yandere",
+			"eccentric"
+		]
+	},
+	{
+		"name": "Copano Rickey",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"dirt"
+		],
+		"tags": [
+			"meta",
+			"loud",
+			"eccentric"
+		]
+	},
+	{
+		"name": "Hokko Tarumae",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"dirt"
+		],
+		"tags": [
+			"meta",
+			"melons",
+			"friend"
+		]
+	},
+	{
+		"name": "Wonder Acute",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"mile",
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"dirt"
+		],
+		"tags": [
+			"hag"
+		]
+	},
+	{
+		"name": "Samson Big",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"short",
+			"loud"
+		]
+	},
+	{
+		"name": "Sounds of Earth",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"canopus"
+		]
+	},
+	{
+		"name": "Royce and Royce",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"canopus",
+			"glasses"
+		]
+	},
+	{
+		"name": "Katsuragi Ace",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"tomboy",
+			"oonige"
+		]
+	},
+	{
+		"name": "Neo Universe",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meta",
+			"airhead",
+			"chuuni"
+		]
+	},
+	{
+		"name": "Hishi Miracle",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"slacker"
+		]
+	},
+	{
+		"name": "Tap Dance City",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"foreign",
+			"oonige",
+			"hat",
+			"hag"
+		]
+	},
+	{
+		"name": "Duramente",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meta"
+		]
+	},
+	{
+		"name": "Rhein Kraft",
+		"sex": "mare",
+		"running_style": 1,
+		"distances": [
+			"short",
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"friend",
+			"pure"
+		]
+	},
+	{
+		"name": "Cesario",
+		"sex": "mare",
+		"running_style": 2,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"stoic",
+			"charmer"
+		]
+	},
+	{
+		"name": "Air Messiah",
+		"sex": "mare",
+		"running_style": 2,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"pure",
+			"glasses"
+		]
+	},
+	{
+		"name": "Daring Heart",
+		"sex": "mare",
+		"running_style": 1,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"dom",
+			"charmer",
+			"passionate"
+		]
+	},
+	{
+		"name": "Fusaichi Pandora",
+		"sex": "mare",
+		"running_style": 1,
+		"distances": [
+			"mile",
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"gyaru"
+		]
+	},
+	{
+		"name": "Buena Vista",
+		"sex": "mare",
+		"running_style": 2,
+		"distances": [
+			"mile",
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"friend",
+			"pure",
+			"affectionate",
+			"caring"
+		]
+	},
+	{
+		"name": "Orfevre",
+		"sex": "stallion",
+		"running_style": 3,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meta",
+			"dom",
+			"troublemaker",
+			"royal"
+		]
+	},
+	{
+		"name": "Gentildonna",
+		"sex": "mare",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"dom",
+			"melons",
+			"meta",
+			"buff"
+		]
+	},
+	{
+		"name": "Win Variation",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"pure"
+		]
+	},
+	{
+		"name": "Admire Groove",
+		"sex": "mare",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"royal",
+			"tsundere"
+		]
+	},
+	{
+		"name": "Dream Journey",
+		"sex": "stallion",
+		"running_style": 3,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"troublemaker",
+			"glasses",
+			"short"
+		]
+	},
+	{
+		"name": "Calstone Light O",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"short"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meme",
+			"comedy",
+			"stupid"
+		]
+	},
+	{
+		"name": "Durandal",
+		"sex": "stallion",
+		"running_style": 3,
+		"distances": [
+			"short",
+			"mile"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"stoic",
+			"comedy"
+		]
+	},
+	{
+		"name": "Bubble Gum Fellow",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"tomboy"
+		]
+	},
+	{
+		"name": "Sakura Chitose O",
+		"sex": "stallion",
+		"running_style": 3,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"pure",
+			"airhead",
+			"traditional"
+		]
+	},
+	{
+		"name": "Fenomeno",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"stoic",
+			"gap"
+		]
+	},
+	{
+		"name": "Blast Onepiece",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"friend",
+			"gap",
+			"loud"
+		]
+	},
+	{
+		"name": "Almond Eye",
+		"sex": "mare",
+		"running_style": 2,
+		"distances": [
+			"mile",
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meta",
+			"pure",
+			"celebrity",
+			"royal"
+		]
+	},
+	{
+		"name": "Lucky Lilac",
+		"sex": "mare",
+		"running_style": 1,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"comedy"
+		]
+	},
+	{
+		"name": "Gran Alegria",
+		"sex": "mare",
+		"running_style": 2,
+		"distances": [
+			"short",
+			"mile"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"loud",
+			"athletic"
+		]
+	},
+	{
+		"name": "Loves Only You",
+		"sex": "mare",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"affectionate",
+			"friend"
+		]
+	},
+	{
+		"name": "Chrono Genesis",
+		"sex": "mare",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"meta",
+			"pure",
+			"shy"
+		]
+	},
+	{
+		"name": "Curren Bouquetd'or",
+		"sex": "mare",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"pure",
+			"loli"
+		]
+	},
+	{
+		"name": "Stay Gold",
+		"sex": "stallion",
+		"running_style": 3,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"comedy",
+			"troublemaker",
+			"slacker",
+			"short",
+			"eccentric"
+		]
+	},
+	{
+		"name": "Red Desire",
+		"sex": "mare",
+		"running_style": 2,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"royal"
+		]
+	},
+	{
+		"name": "Kiseki",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"oonige"
+		]
+	},
+	{
+		"name": "Forever Young",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"dirt"
+		],
+		"tags": [
+			"gyaru",
+			"foreign",
+			"celebrity",
+			"sly"
+		]
+	},
+	{
+		"name": "Marche Lorraine",
+		"sex": "mare",
+		"running_style": 2,
+		"distances": [
+			"medium"
+		],
+		"terrain": [
+			"dirt"
+		],
+		"tags": [
+			"foreign",
+			"shy",
+			"pure"
+		]
+	},
+	{
+		"name": "Epiphaneia",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"buff",
+			"stoic"
+		]
+	},
+	{
+		"name": "Logotype",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"mile",
+			"medium"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"sly",
+			"tomboy"
+		]
+	},
+	{
+		"name": "Victoire Pisa",
+		"sex": "stallion",
+		"running_style": 1,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf",
+			"dirt"
+		],
+		"tags": [
+			"pure",
+			"daughter"
+		]
+	},
+	{
+		"name": "Rose Kingdom",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"solitary",
+			"royal"
+		]
+	},
+	{
+		"name": "Rulership",
+		"sex": "stallion",
+		"running_style": 2,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"royal",
+			"troublemaker"
+		]
+	}
+]
