@@ -19,9 +19,9 @@ const basePath = import.meta.env.BASE_URL;
 
 	<div class="character-grid">
 		{
-			data.map((uma) => (
+			data.map((uma, index) => (
 				<label for={uma.id} class="character-card" data-name={uma.id} data-search={uma.search_names}>
-					<input type="checkbox" name={uma.id} id={uma.id} class="character-checkbox">
+					<input type="checkbox" name={uma.id} id={uma.id} value={index} class="character-checkbox">
 
 					<div class="card-content">
 						<img src=`${basePath}/images/characters/x150/${uma.id}.png` alt={uma.name} loading="lazy" class="character-img" draggable="false">
@@ -39,6 +39,7 @@ const basePath = import.meta.env.BASE_URL;
 	<script>
 		// Global
 		const cardList = document.querySelectorAll(".character-card")  as NodeListOf<HTMLElement>;
+		const allCheckboxes = document.querySelectorAll('.character-checkbox') as NodeListOf<HTMLInputElement>;
 
 		// Search
 		const searchbar = document.getElementById("search") as HTMLInputElement;
@@ -63,9 +64,16 @@ const basePath = import.meta.env.BASE_URL;
 
 		const MAX_SELECTIONS = 10;
 
+		submit.addEventListener('click', () => {
+			const selected = Array.from(allCheckboxes)
+					.filter(box => box.checked)
+					.map(box => Number(box.value));
+			const payload = encodeSelection(selected);
+			window.location.href = `result?s=${payload}`;
+		});
+
 		cardGrid.addEventListener('change', () => {
 
-			const allCheckboxes = document.querySelectorAll('.character-checkbox') as NodeListOf<HTMLInputElement>;
 			const checkedCount = document.querySelectorAll('.character-checkbox:checked').length;
 
 			// Update selected count
@@ -91,5 +99,20 @@ const basePath = import.meta.env.BASE_URL;
 			}
 		});
 
+		// Encoding
+		function encodeSelection(selectedIndices: number[]): string {
+			// Convert to bytes
+			const bytes = new Uint8Array(selectedIndices); 
+
+			// Convert to binary string
+			let binaryStr = '';
+			bytes.forEach(b => binaryStr += String.fromCharCode(b));
+
+			// Encode to Base64url
+			return btoa(binaryStr)
+				.replace(/\+/g, '-') 
+				.replace(/\//g, '_') 
+				.replace(/=+$/, ''); 
+		}
 	</script>
 </MainLayout>
