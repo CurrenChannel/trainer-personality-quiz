@@ -1,0 +1,47 @@
+---
+import { Image } from 'astro:assets';
+import "../styles/layout.css";
+
+import background from "../assets/backgrounds/Bakunetsu.png";
+
+let {title} = Astro.props;
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/CurrenChannel/currenchannel.github.io@refs/heads/main/src/styles/global.css">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="generator" content={Astro.generator} />
+
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://curren.channel/">
+        <meta property="og:title" content="Curren Channel">
+        <meta property="og:description" content="Curren Channel website dayo">
+        <meta property="og:image" content="https://curren.channel/embed/embed-pic.png">
+
+		<title>{title}</title>
+	</head>
+	<body>
+		<Image src={ background } alt="Bakunetsu My Soul background" id="background" />
+
+        <a href="/" class="btn btn-secondary btn-back">Back</a>
+        <main>
+		    <slot></slot>
+        </main>
+        <footer>
+			<p>
+				Copyright (c) 2026 Curren Channel. All Rights Reserved.<br>
+				This is a fanmade project. Not Affiliated with Cygames.<br>
+				The Umamusume media franchise, models and official art are copyrights of Cygames.<br>
+				For more information, consult <a href="https://umamusume.com/fan-createdguide/" target="_blank" rel="noopener">Fan-Created Content Guidelines</a>
+			</p>
+        </footer>
+	</body>
+</html>

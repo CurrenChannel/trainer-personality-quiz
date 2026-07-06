@@ -1,0 +1,95 @@
+
+main {
+    background-color: #000000aa;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;         
+    height: 100dvh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.btn-back {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.title {
+    position: relative;
+}
+
+.title::before {
+    content: "BETA";
+    color: var(--color-background-darker);
+    background-color: #ffe657;
+
+    font-size: 1rem;
+    padding: 5px 1rem;
+
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+
+    transform: rotate(-10deg);
+    clip-path: polygon(
+        0% 0%, 100% 0%, 
+        100% calc(50% - 10px), calc(100% - 12px) 50%, 100% calc(50% + 10px), 
+        100% 100%, 0% 100%, 
+        0% calc(50% + 10px), 12px 50%, 0% calc(50% - 10px)
+    );
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1200px;
+    width: 100%;
+    
+    gap: 5px;
+
+    border-radius: 2rem;
+    padding: 10px;
+
+    background-color: #00000066;
+    backdrop-filter: blur(var(--glass-blur-radius));
+}
+
+#search {
+    border-radius: 2rem;
+    padding: 10px;
+    flex: 1;
+
+    font-size: 1.15rem;
+
+    background-color: var(--color-background-main);
+    border: none;
+    outline: 3px solid var(--color-accent-darker);
+
+    transition: 0.2s ease;
+}
+
+#search:focus {
+    outline: 2px solid var(--color-accent);
+}
+
+.character-grid {
+    max-width: 1200px;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+
+    gap: 16px;
+}
+
+footer {
+    background: none;
+    backdrop-filter: blur(var(--glass-blur-radius));
+}
