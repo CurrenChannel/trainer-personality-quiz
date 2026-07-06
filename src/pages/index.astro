@@ -20,7 +20,7 @@ const basePath = import.meta.env.BASE_URL;
 	<div class="character-grid">
 		{
 			data.map((uma) => (
-				<label for={uma.id} class="character-card" data-name={uma.id}>
+				<label for={uma.id} class="character-card" data-name={uma.id} data-search={uma.search_names}>
 					<input type="checkbox" name={uma.id} id={uma.id} class="character-checkbox">
 
 					<div class="card-content">
@@ -39,7 +39,8 @@ const basePath = import.meta.env.BASE_URL;
 		searchbar?.addEventListener('input', () => {
 			let search = searchbar.value.toLowerCase().replace(/[^a-z]/g, '');
 			cardList.forEach((card) => {
-				if (card.dataset.name!.includes(search)) {
+				if (card.dataset.name!.includes(search) ||
+			card.dataset.search!.includes(search)) {
 					card.classList.remove("hidden");
 				} else {
 					card.classList.add("hidden");

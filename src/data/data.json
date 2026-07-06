@@ -2,6 +2,7 @@
 	{
 		"id": "specialweek",
 		"name": "Special Week",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -22,6 +23,7 @@
 	{
 		"id": "silencesuzuka",
 		"name": "Silence Suzuka",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -41,6 +43,7 @@
 	{
 		"id": "tokaiteio",
 		"name": "Tokai Teio",
+		"search_names": "hachimi",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -63,6 +66,7 @@
 	{
 		"id": "maruzensky",
 		"name": "Maruzensky",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -85,6 +89,7 @@
 	{
 		"id": "fujikiseki",
 		"name": "Fuji Kiseki",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -102,6 +107,7 @@
 	{
 		"id": "oguricap",
 		"name": "Oguri Cap",
+		"search_names": "fatty",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -124,6 +130,7 @@
 	{
 		"id": "goldship",
 		"name": "Gold Ship",
+		"search_names": "golshi gorushi",
 		"sex": "stallion",
 		"running_style": 3,
 		"distances": [
@@ -144,6 +151,7 @@
 	{
 		"id": "vodka",
 		"name": "Vodka",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 2,
 		"distances": [
@@ -162,6 +170,7 @@
 	{
 		"id": "daiwascarlet",
 		"name": "Daiwa Scarlet",
+		"search_names": "daisca daiska",
 		"sex": "mare",
 		"running_style": 0,
 		"distances": [
@@ -180,6 +189,7 @@
 	{
 		"id": "taikishuttle",
 		"name": "Taiki Shuttle",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -200,6 +210,7 @@
 	{
 		"id": "grasswonder",
 		"name": "Grass Wonder",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -224,6 +235,7 @@
 	{
 		"id": "hishiamazon",
 		"name": "Hishi Amazon",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 3,
 		"distances": [
@@ -242,6 +254,7 @@
 	{
 		"id": "mejiromcqueen",
 		"name": "Mejiro McQueen",
+		"search_names": "mac makku",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -262,6 +275,7 @@
 	{
 		"id": "elcondorpasa",
 		"name": "El Condor Pasa",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -282,6 +296,7 @@
 	{
 		"id": "tmoperao",
 		"name": "T.M. Opera O",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -301,6 +316,7 @@
 	{
 		"id": "naritabrian",
 		"name": "Narita Brian",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -320,6 +336,7 @@
 	{
 		"id": "symbolirudolf",
 		"name": "Symboli Rudolf",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -342,6 +359,7 @@
 	{
 		"id": "airgroove",
 		"name": "Air Groove",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 2,
 		"distances": [
@@ -361,6 +379,7 @@
 	{
 		"id": "agnesdigital",
 		"name": "Agnes Digital",
+		"search_names": "hentai",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -380,6 +399,7 @@
 	{
 		"id": "seiunsky",
 		"name": "Seiun Sky",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -398,6 +418,7 @@
 	{
 		"id": "tamamocross",
 		"name": "Tamamo Cross",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 3,
 		"distances": [
@@ -416,6 +437,7 @@
 	{
 		"id": "finemotion",
 		"name": "Fine Motion",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 1,
 		"distances": [
@@ -435,6 +457,7 @@
 	{
 		"id": "biwahayahide",
 		"name": "Biwa Hayahide",
+		"search_names": "bnw",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -452,6 +475,7 @@
 	{
 		"id": "mayanotopgun",
 		"name": "Mayano Top Gun",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -472,6 +496,7 @@
 	{
 		"id": "manhattancafe",
 		"name": "Manhattan Cafe",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -493,6 +518,7 @@
 	{
 		"id": "mihonobourbon",
 		"name": "Mihono Bourbon",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -513,6 +539,7 @@
 	{
 		"id": "mejiroryan",
 		"name": "Mejiro Ryan",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -532,6 +559,7 @@
 	{
 		"id": "hishiakebono",
 		"name": "Hishi Akebono",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -551,6 +579,7 @@
 	{
 		"id": "yukinobijin",
 		"name": "Yukino Bijin",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 1,
 		"distances": [
@@ -571,6 +600,7 @@
 	{
 		"id": "riceshower",
 		"name": "Rice Shower",
+		"search_names": "ears",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -591,6 +621,7 @@
 	{
 		"id": "inesfujin",
 		"name": "Ines Fujin",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -608,6 +639,7 @@
 	{
 		"id": "agnestachyon",
 		"name": "Agnes Tachyon",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -630,6 +662,7 @@
 	{
 		"id": "admirevega",
 		"name": "Admire Vega",
+		"search_names": "ayabe",
 		"sex": "stallion",
 		"running_style": 3,
 		"distances": [
@@ -650,6 +683,7 @@
 	{
 		"id": "inarione",
 		"name": "Inari One",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 3,
 		"distances": [
@@ -670,6 +704,7 @@
 	{
 		"id": "winningticket",
 		"name": "Winning Ticket",
+		"search_names": "ticketzo bnw",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -688,6 +723,7 @@
 	{
 		"id": "airshakur",
 		"name": "Air Shakur",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 3,
 		"distances": [
@@ -706,6 +742,7 @@
 	{
 		"id": "eishinflash",
 		"name": "Eishin Flash",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -724,6 +761,7 @@
 	{
 		"id": "currenchan",
 		"name": "Curren Chan",
+		"search_names": "wife",
 		"sex": "mare",
 		"running_style": 1,
 		"distances": [
@@ -743,6 +781,7 @@
 	{
 		"id": "kawakamiprincess",
 		"name": "Kawakami Princess",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 2,
 		"distances": [
@@ -762,6 +801,7 @@
 	{
 		"id": "goldcity",
 		"name": "Gold City",
+		"search_names": "shitty",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -780,6 +820,7 @@
 	{
 		"id": "sakurabakushino",
 		"name": "Sakura Bakushin O",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -797,6 +838,7 @@
 	{
 		"id": "seekingthepearl",
 		"name": "Seeking the Pearl",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 1,
 		"distances": [
@@ -816,6 +858,7 @@
 	{
 		"id": "shinkowindy",
 		"name": "Shinko Windy",
+		"search_names": "dog",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -835,6 +878,7 @@
 	{
 		"id": "sweeptosho",
 		"name": "Sweep Tosho",
+		"search_names": "yadayada",
 		"sex": "mare",
 		"running_style": 3,
 		"distances": [
@@ -856,6 +900,7 @@
 	{
 		"id": "supercreek",
 		"name": "Super Creek",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -876,6 +921,7 @@
 	{
 		"id": "smartfalcon",
 		"name": "Smart Falcon",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -894,6 +940,7 @@
 	{
 		"id": "zennorobroy",
 		"name": "Zenno Rob Roy",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -912,6 +959,7 @@
 	{
 		"id": "tosenjordan",
 		"name": "Tosen Jordan",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -928,6 +976,7 @@
 	{
 		"id": "nakayamafesta",
 		"name": "Nakayama Festa",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -946,6 +995,7 @@
 	{
 		"id": "naritataishin",
 		"name": "Narita Taishin",
+		"search_names": "bnw",
 		"sex": "stallion",
 		"running_style": 3,
 		"distances": [
@@ -963,6 +1013,7 @@
 	{
 		"id": "nishinoflower",
 		"name": "Nishino Flower",
+		"search_names": "2kb",
 		"sex": "mare",
 		"running_style": 1,
 		"distances": [
@@ -983,6 +1034,7 @@
 	{
 		"id": "haruurara",
 		"name": "Haru Urara",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 2,
 		"distances": [
@@ -1002,6 +1054,7 @@
 	{
 		"id": "bamboomemory",
 		"name": "Bamboo Memory",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -1020,6 +1073,7 @@
 	{
 		"id": "bikopegasus",
 		"name": "Biko Pegasus",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -1039,6 +1093,7 @@
 	{
 		"id": "marveloussunday",
 		"name": "Marvelous Sunday",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -1059,6 +1114,7 @@
 	{
 		"id": "matikanefukukitaru",
 		"name": "Matikanefukukitaru",
+		"search_names": "machifuku machikanefukukitaru",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -1077,6 +1133,7 @@
 	{
 		"id": "mrcb",
 		"name": "Mr. C.B.",
+		"search_names": "shibi",
 		"sex": "stallion",
 		"running_style": 3,
 		"distances": [
@@ -1095,6 +1152,7 @@
 	{
 		"id": "meishodoto",
 		"name": "Meisho Doto",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -1113,6 +1171,7 @@
 	{
 		"id": "mejirodober",
 		"name": "Mejiro Dober",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 2,
 		"distances": [
@@ -1132,6 +1191,7 @@
 	{
 		"id": "nicenature",
 		"name": "Nice Nature",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -1154,6 +1214,7 @@
 	{
 		"id": "kinghalo",
 		"name": "King Halo",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -1173,6 +1234,7 @@
 	{
 		"id": "matikanetannhauser",
 		"name": "Matikanetannhauser",
+		"search_names": "mambo machitan machikanetannhauser",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -1195,6 +1257,7 @@
 	{
 		"id": "ikunodictus",
 		"name": "Ikuno Dictus",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 2,
 		"distances": [
@@ -1213,6 +1276,7 @@
 	{
 		"id": "mejiropalmer",
 		"name": "Mejiro Palmer",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -1232,6 +1296,7 @@
 	{
 		"id": "daitakuhelios",
 		"name": "Daitaku Helios",
+		"search_names": "weiiiiiiiiiiiiiiiiiiiiiii",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -1251,6 +1316,7 @@
 	{
 		"id": "twinturbo",
 		"name": "Twin Turbo",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -1272,6 +1338,7 @@
 	{
 		"id": "satonodiamond",
 		"name": "Satono Diamond",
+		"search_names": "freakydiamond",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -1289,6 +1356,7 @@
 	{
 		"id": "kitasanblack",
 		"name": "Kitasan Black",
+		"search_names": "harikitteikou",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -1308,6 +1376,7 @@
 	{
 		"id": "sakurachiyonoo",
 		"name": "Sakura Chiyono O",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -1326,6 +1395,7 @@
 	{
 		"id": "siriussymboli",
 		"name": "Sirius Symboli",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -1343,6 +1413,7 @@
 	{
 		"id": "mejiroardan",
 		"name": "Mejiro Ardan",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -1360,6 +1431,7 @@
 	{
 		"id": "yaenomuteki",
 		"name": "Yaeno Muteki",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -1377,6 +1449,7 @@
 	{
 		"id": "tsurumarutsuyoshi",
 		"name": "Tsurumaru Tsuyoshi",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -1396,6 +1469,7 @@
 	{
 		"id": "mejirobright",
 		"name": "Mejiro Bright",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 3,
 		"distances": [
@@ -1413,6 +1487,7 @@
 	{
 		"id": "daringtact",
 		"name": "Daring Tact",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 2,
 		"distances": [
@@ -1431,6 +1506,7 @@
 	{
 		"id": "sakuralaurel",
 		"name": "Sakura Laurel",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -1448,6 +1524,7 @@
 	{
 		"id": "naritatoproad",
 		"name": "Narita Top Road",
+		"search_names": "ntr",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -1459,12 +1536,14 @@
 		],
 		"tags": [
 			"protagonist",
-			"shy"
+			"shy",
+			"meme"
 		]
 	},
 	{
 		"id": "yamaninzephyr",
 		"name": "Yamanin Zephyr",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -1483,6 +1562,7 @@
 	{
 		"id": "furioso",
 		"name": "Furioso",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -1499,6 +1579,7 @@
 	{
 		"id": "transcend",
 		"name": "Transcend",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -1516,6 +1597,7 @@
 	{
 		"id": "espoircity",
 		"name": "Espoir City",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -1534,6 +1616,7 @@
 	{
 		"id": "northflight",
 		"name": "North Flight",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 1,
 		"distances": [
@@ -1550,6 +1633,7 @@
 	{
 		"id": "symbolikriss",
 		"name": "Symboli Kris S",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -1568,6 +1652,7 @@
 	{
 		"id": "taninogimlet",
 		"name": "Tanino Gimlet",
+		"search_names": "fencebreaker",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -1587,6 +1672,7 @@
 	{
 		"id": "daiichiruby",
 		"name": "Daiichi Ruby",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 2,
 		"distances": [
@@ -1607,6 +1693,7 @@
 	{
 		"id": "mejiroramonu",
 		"name": "Mejiro Ramonu",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 1,
 		"distances": [
@@ -1626,6 +1713,7 @@
 	{
 		"id": "astonmachan",
 		"name": "Aston Machan",
+		"search_names": "mamamachan neverforget dontforget",
 		"sex": "mare",
 		"running_style": 0,
 		"distances": [
@@ -1643,6 +1731,7 @@
 	{
 		"id": "satonocrown",
 		"name": "Satono Crown",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -1661,6 +1750,7 @@
 	{
 		"id": "chevalgrand",
 		"name": "Cheval Grand",
+		"search_names": "chevacchi",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -1678,6 +1768,7 @@
 	{
 		"id": "verxina",
 		"name": "Verxina",
+		"search_names": "vershina",
 		"sex": "mare",
 		"running_style": 0,
 		"distances": [
@@ -1695,6 +1786,7 @@
 	{
 		"id": "vivlos",
 		"name": "Vivlos",
+		"search_names": "biburosu",
 		"sex": "mare",
 		"running_style": 2,
 		"distances": [
@@ -1716,6 +1808,7 @@
 	{
 		"id": "dantsuflame",
 		"name": "Dantsu Flame",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -1731,6 +1824,7 @@
 	{
 		"id": "ksmiracle",
 		"name": "K.S.Miracle",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -1748,6 +1842,7 @@
 	{
 		"id": "junglepocket",
 		"name": "Jungle Pocket",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -1767,6 +1862,7 @@
 	{
 		"id": "believe",
 		"name": "Believe",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 1,
 		"distances": [
@@ -1784,6 +1880,7 @@
 	{
 		"id": "noreason",
 		"name": "No Reason",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -1801,6 +1898,7 @@
 	{
 		"id": "stillinlove",
 		"name": "Still in Love",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 2,
 		"distances": [
@@ -1823,6 +1921,7 @@
 	{
 		"id": "copanorickey",
 		"name": "Copano Rickey",
+		"search_names": "rikki",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -1841,6 +1940,7 @@
 	{
 		"id": "hokkotarumae",
 		"name": "Hokko Tarumae",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -1859,6 +1959,7 @@
 	{
 		"id": "wonderacute",
 		"name": "Wonder Acute",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -1876,6 +1977,7 @@
 	{
 		"id": "samsonbig",
 		"name": "Samson Big",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -1893,6 +1995,7 @@
 	{
 		"id": "soundsofearth",
 		"name": "Sounds of Earth",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -1909,6 +2012,7 @@
 	{
 		"id": "royceandroyce",
 		"name": "Royce and Royce",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -1926,6 +2030,7 @@
 	{
 		"id": "katsuragiace",
 		"name": "Katsuragi Ace",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -1943,6 +2048,7 @@
 	{
 		"id": "neouniverse",
 		"name": "Neo Universe",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -1961,6 +2067,7 @@
 	{
 		"id": "hishimiracle",
 		"name": "Hishi Miracle",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -1979,6 +2086,7 @@
 	{
 		"id": "tapdancecity",
 		"name": "Tap Dance City",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -1998,6 +2106,7 @@
 	{
 		"id": "duramente",
 		"name": "Duramente",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -2015,6 +2124,7 @@
 	{
 		"id": "rheinkraft",
 		"name": "Rhein Kraft",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 1,
 		"distances": [
@@ -2033,6 +2143,7 @@
 	{
 		"id": "cesario",
 		"name": "Cesario",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 2,
 		"distances": [
@@ -2050,6 +2161,7 @@
 	{
 		"id": "airmessiah",
 		"name": "Air Messiah",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 2,
 		"distances": [
@@ -2067,6 +2179,7 @@
 	{
 		"id": "daringheart",
 		"name": "Daring Heart",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 1,
 		"distances": [
@@ -2085,6 +2198,7 @@
 	{
 		"id": "fusaichipandora",
 		"name": "Fusaichi Pandora",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 1,
 		"distances": [
@@ -2102,6 +2216,7 @@
 	{
 		"id": "buenavista",
 		"name": "Buena Vista",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 2,
 		"distances": [
@@ -2122,6 +2237,7 @@
 	{
 		"id": "orfevre",
 		"name": "Orfevre",
+		"search_names": "tyrant",
 		"sex": "stallion",
 		"running_style": 3,
 		"distances": [
@@ -2141,6 +2257,7 @@
 	{
 		"id": "gentildonna",
 		"name": "Gentildonna",
+		"search_names": "mommy",
 		"sex": "mare",
 		"running_style": 1,
 		"distances": [
@@ -2161,6 +2278,7 @@
 	{
 		"id": "winvariation",
 		"name": "Win Variation",
+		"search_names": "barichan",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -2177,6 +2295,7 @@
 	{
 		"id": "admiregroove",
 		"name": "Admire Groove",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 2,
 		"distances": [
@@ -2194,6 +2313,7 @@
 	{
 		"id": "dreamjourney",
 		"name": "Dream Journey",
+		"search_names": "dorija",
 		"sex": "stallion",
 		"running_style": 3,
 		"distances": [
@@ -2212,6 +2332,7 @@
 	{
 		"id": "calstonelighto",
 		"name": "Calstone Light O",
+		"search_names": "neko",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -2229,6 +2350,7 @@
 	{
 		"id": "durandal",
 		"name": "Durandal",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 3,
 		"distances": [
@@ -2246,6 +2368,7 @@
 	{
 		"id": "bubblegumfellow",
 		"name": "Bubble Gum Fellow",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -2261,6 +2384,7 @@
 	{
 		"id": "sakurachitoseo",
 		"name": "Sakura Chitose O",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 3,
 		"distances": [
@@ -2279,6 +2403,7 @@
 	{
 		"id": "fenomeno",
 		"name": "Fenomeno",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -2296,6 +2421,7 @@
 	{
 		"id": "blastonepiece",
 		"name": "Blast Onepiece",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -2314,6 +2440,7 @@
 	{
 		"id": "almondeye",
 		"name": "Almond Eye",
+		"search_names": "almondai",
 		"sex": "mare",
 		"running_style": 2,
 		"distances": [
@@ -2334,6 +2461,7 @@
 	{
 		"id": "luckylilac",
 		"name": "Lucky Lilac",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 1,
 		"distances": [
@@ -2350,6 +2478,7 @@
 	{
 		"id": "granalegria",
 		"name": "Gran Alegria",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 2,
 		"distances": [
@@ -2367,6 +2496,7 @@
 	{
 		"id": "lovesonlyyou",
 		"name": "Loves Only You",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 1,
 		"distances": [
@@ -2384,6 +2514,7 @@
 	{
 		"id": "chronogenesis",
 		"name": "Chrono Genesis",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 1,
 		"distances": [
@@ -2402,6 +2533,7 @@
 	{
 		"id": "currenbouquetdor",
 		"name": "Curren Bouquetd'or",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 1,
 		"distances": [
@@ -2419,6 +2551,7 @@
 	{
 		"id": "staygold",
 		"name": "Stay Gold",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 3,
 		"distances": [
@@ -2439,6 +2572,7 @@
 	{
 		"id": "reddesire",
 		"name": "Red Desire",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 2,
 		"distances": [
@@ -2455,6 +2589,7 @@
 	{
 		"id": "kiseki",
 		"name": "Kiseki",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -2471,6 +2606,7 @@
 	{
 		"id": "foreveryoung",
 		"name": "Forever Young",
+		"search_names": "nepobaby johncygames yanko ebayan",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -2490,6 +2626,7 @@
 	{
 		"id": "marchelorraine",
 		"name": "Marche Lorraine",
+		"search_names": "",
 		"sex": "mare",
 		"running_style": 2,
 		"distances": [
@@ -2507,6 +2644,7 @@
 	{
 		"id": "epiphaneia",
 		"name": "Epiphaneia",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -2524,6 +2662,7 @@
 	{
 		"id": "logotype",
 		"name": "Logotype",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -2541,6 +2680,7 @@
 	{
 		"id": "victoirepisa",
 		"name": "Victoire Pisa",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -2559,6 +2699,7 @@
 	{
 		"id": "rosekingdom",
 		"name": "Rose Kingdom",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -2576,6 +2717,7 @@
 	{
 		"id": "rulership",
 		"name": "Rulership",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -2593,6 +2735,7 @@
 	{
 		"id": "titleholder",
 		"name": "Titleholder",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
