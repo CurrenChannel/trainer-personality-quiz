@@ -336,7 +336,7 @@
 	{
 		"id": "symbolirudolf",
 		"name": "Symboli Rudolf",
-		"search_names": "",
+		"search_names": "dadjokes",
 		"sex": "stallion",
 		"running_style": 2,
 		"distances": [
@@ -418,7 +418,7 @@
 	{
 		"id": "tamamocross",
 		"name": "Tamamo Cross",
-		"search_names": "",
+		"search_names": "brokie",
 		"sex": "stallion",
 		"running_style": 3,
 		"distances": [
@@ -900,7 +900,7 @@
 	{
 		"id": "supercreek",
 		"name": "Super Creek",
-		"search_names": "",
+		"search_names": "googoobabies",
 		"sex": "stallion",
 		"running_style": 1,
 		"distances": [
@@ -2237,7 +2237,7 @@
 	{
 		"id": "orfevre",
 		"name": "Orfevre",
-		"search_names": "tyrant",
+		"search_names": "",
 		"sex": "stallion",
 		"running_style": 3,
 		"distances": [

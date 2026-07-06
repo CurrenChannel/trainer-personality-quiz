@@ -37,7 +37,7 @@ const basePath = import.meta.env.BASE_URL;
 		const cardList = document.querySelectorAll(".character-card")  as NodeListOf<HTMLElement>;
 
 		searchbar?.addEventListener('input', () => {
-			let search = searchbar.value.toLowerCase().replace(/[^a-z]/g, '');
+			let search = searchbar.value.toLowerCase().replace(/[^a-z0-9]/g, '');
 			cardList.forEach((card) => {
 				if (card.dataset.name!.includes(search) ||
 			card.dataset.search!.includes(search)) {
