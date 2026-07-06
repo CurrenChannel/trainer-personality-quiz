@@ -40,7 +40,7 @@ main {
     padding: 5px 1rem;
 
     position: absolute;
-    bottom: -30px;
+    bottom: -10px;
     right: 10px;
 
     transform: rotate(-10deg);
@@ -99,7 +99,7 @@ main {
     margin: 20px 0;
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 
     gap: 16px;
 }
@@ -133,8 +133,7 @@ main {
     justify-content: center;
     align-items: center;
 
-    padding: 1rem;
-    width: 180px;
+    width: 160px;
     height: 100%;
     border-radius: 15px;
 
@@ -158,11 +157,13 @@ main {
     height: 150px;
     width: 150px;
     object-fit: cover;
+
+    flex: none;
 }
 
 .character-name {
     text-align: center;
-    margin: 10px 0 0 0;
+    margin: 5px 0;
 }
 
 footer {
