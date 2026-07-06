@@ -101,10 +101,15 @@ main {
 }
 
 .character-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     user-select: none;
     cursor: pointer;
 
-    width: 180px;
+    width: 100%;
 }
 
 .character-checkbox {
@@ -121,7 +126,7 @@ main {
     align-items: center;
 
     padding: 1rem;
-    width: 100%;
+    width: 180px;
     height: 100%;
     border-radius: 15px;
 
