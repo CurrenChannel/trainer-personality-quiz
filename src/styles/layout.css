@@ -101,7 +101,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 
-    gap: 16px;
+    gap: 12px;
 }
 
 .character-card {
@@ -151,6 +151,16 @@ main {
 
 .character-checkbox:focus + .card-content {
     outline: 3px solid var(--color-accent);
+}
+
+.card-content:hover {
+    outline: 3px solid var(--color-accent-dark);
+    transform: scale(1.02);
+}
+
+.card-content:active {
+    transform: scale(0.98);
+    filter: brightness(0.9);
 }
 
 .character-img {
