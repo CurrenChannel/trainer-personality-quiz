@@ -1,5 +1,6 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro"
+import data from "../data/data.json"
 ---
 
 <MainLayout title="Trainer Personality Test">
@@ -12,5 +13,20 @@ import MainLayout from "../layouts/MainLayout.astro"
 		</svg>
 
 		<input type="text" name="search" id="search" placeholder="Search...">
+	</div>
+
+	<div class="character-grid">
+		{
+			data.map((uma) => (
+				<label for={uma.id} class="character-card">
+					<input type="checkbox" name={uma.id} id={uma.id} class="character-checkbox">
+
+					<div class="card-content">
+						<img src=`/images/characters/x150/${uma.id}.png` alt={uma.name} loading="lazy" class="character-img" draggable="false">
+						<p class="character-name">{uma.name}</p>
+					</div>
+				</label>
+			))
+		}
 	</div>
 </MainLayout>

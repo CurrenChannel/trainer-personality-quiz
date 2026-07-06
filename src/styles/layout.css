@@ -11,12 +11,16 @@ main {
     height: 100dvh;
     object-fit: cover;
     z-index: -1;
+
+    user-select: none;
 }
 
 .btn-back {
     position: absolute;
     top: 10px;
     left: 10px;
+
+    user-select: none;
 }
 
 .title {
@@ -52,11 +56,12 @@ main {
     max-width: 1200px;
     width: 100%;
     
-    gap: 5px;
+    gap: 1rem;
 
     border-radius: 2rem;
     padding: 10px;
 
+    border: 1px solid var(--color-background-darker);
     background-color: #00000066;
     backdrop-filter: blur(var(--glass-blur-radius));
 }
@@ -69,24 +74,78 @@ main {
     font-size: 1.15rem;
 
     background-color: var(--color-background-main);
-    border: none;
-    outline: 3px solid var(--color-accent-darker);
+    border: 1px solid var(--color-background-dark);
+    outline: 3px solid transparent;
 
-    transition: 0.2s ease;
+    transition: 0.3s ease;
 }
 
 #search:focus {
-    outline: 2px solid var(--color-accent);
+    outline: 3px solid var(--color-accent);
 }
 
 .character-grid {
     max-width: 1200px;
     width: 100%;
 
+    margin: 20px 0;
+
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 
     gap: 16px;
+}
+
+.character-card {
+    user-select: none;
+    cursor: pointer;
+
+    width: 180px;
+}
+
+.character-checkbox {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+
+    border: 1px solid var(--color-background-dark);
+    background-color: #00000066;
+    backdrop-filter: blur(var(--glass-blur-radius));
+    outline: 3px solid transparent;
+
+    transition: 0.3s ease;
+}
+
+.character-checkbox:checked + .card-content {
+    background-color: #5fad50;
+}
+
+.character-checkbox:focus + .card-content {
+    outline: 3px solid var(--color-accent);
+}
+
+.character-img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.character-name {
+    text-align: center;
+    margin: 10px 0 0 0;
 }
 
 footer {
