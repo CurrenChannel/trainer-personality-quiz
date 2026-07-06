@@ -25,6 +25,10 @@ main {
 
 .title {
     position: relative;
+    margin-top: 50px;
+    padding: 20px;
+
+    text-align: center;
 }
 
 .title::before {
@@ -37,7 +41,7 @@ main {
 
     position: absolute;
     bottom: -30px;
-    right: -30px;
+    right: 10px;
 
     transform: rotate(-10deg);
     clip-path: polygon(
