@@ -217,7 +217,8 @@
 			"brat",
 			"traditional",
 			"debuffer",
-			"glutton"
+			"glutton",
+			"martial-artist"
 		]
 	},
 	{
@@ -485,7 +486,8 @@
 			"shy",
 			"solitary",
 			"debuffer",
-			"meme"
+			"meme",
+			"aura"
 		]
 	},
 	{
@@ -753,7 +755,8 @@
 			"royal",
 			"brat",
 			"gap",
-			"buff"
+			"buff",
+			"martial-artist"
 		]
 	},
 	{
@@ -1010,7 +1013,8 @@
 		],
 		"tags": [
 			"tomboy",
-			"athletic"
+			"athletic",
+			"martial-artist"
 		]
 	},
 	{
@@ -1029,7 +1033,7 @@
 			"tomboy",
 			"loud",
 			"chuuni",
-			"buff"
+			"aura"
 		]
 	},
 	{
@@ -1366,7 +1370,8 @@
 		],
 		"tags": [
 			"tomboy",
-			"athletic"
+			"athletic",
+			"martial-artist"
 		]
 	},
 	{
@@ -1755,7 +1760,7 @@
 		"tags": [
 			"meta",
 			"protagonist",
-			"buff",
+			"aura",
 			"tomboy"
 		]
 	},
@@ -1789,7 +1794,8 @@
 		],
 		"tags": [
 			"chuuni",
-			"eccentric"
+			"eccentric",
+			"martial-artist"
 		]
 	},
 	{
@@ -2002,7 +2008,7 @@
 			"turf"
 		],
 		"tags": [
-			"buff",
+			"aura",
 			"stoic"
 		]
 	},
@@ -2148,7 +2154,8 @@
 			"dom",
 			"melons",
 			"meta",
-			"buff"
+			"buff",
+			"aura"
 		]
 	},
 	{
@@ -2510,7 +2517,7 @@
 			"turf"
 		],
 		"tags": [
-			"buff",
+			"aura",
 			"stoic"
 		]
 	},
@@ -2581,6 +2588,23 @@
 		"tags": [
 			"royal",
 			"troublemaker"
+		]
+	},
+	{
+		"id": "titleholder",
+		"name": "Titleholder",
+		"sex": "stallion",
+		"running_style": 0,
+		"distances": [
+			"medium",
+			"long"
+		],
+		"terrain": [
+			"turf"
+		],
+		"tags": [
+			"stoic",
+			"martial-artist"
 		]
 	}
 ]
