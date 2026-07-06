@@ -84,6 +84,10 @@ main {
     transition: 0.2s ease;
 }
 
+#search:hover {
+    outline: 3px solid var(--color-accent-dark);
+}
+
 #search:focus {
     outline: 3px solid var(--color-accent);
 }
@@ -112,6 +116,7 @@ main {
 
     user-select: none;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 
     width: 100%;
 }
