@@ -1,6 +1,8 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro"
 import data from "../data/data.json"
+
+const basePath = import.meta.env.BASE_URL;
 ---
 
 <MainLayout title="Trainer Personality Test">
@@ -22,7 +24,7 @@ import data from "../data/data.json"
 					<input type="checkbox" name={uma.id} id={uma.id} class="character-checkbox">
 
 					<div class="card-content">
-						<img src=`/images/characters/x150/${uma.id}.png` alt={uma.name} loading="lazy" class="character-img" draggable="false">
+						<img src=`${basePath}/images/characters/x150/${uma.id}.png` alt={uma.name} loading="lazy" class="character-img" draggable="false">
 						<p class="character-name">{uma.name}</p>
 					</div>
 				</label>
