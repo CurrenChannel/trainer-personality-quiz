@@ -81,7 +81,7 @@ main {
     border: 1px solid var(--color-background-dark);
     outline: 3px solid transparent;
 
-    transition: 0.3s ease;
+    transition: 0.2s ease;
 }
 
 #search:focus {
@@ -116,6 +116,10 @@ main {
     width: 100%;
 }
 
+.character-card.hidden {
+    display: none;
+}
+
 .character-checkbox {
     position: absolute;
     opacity: 0;
@@ -139,7 +143,7 @@ main {
     backdrop-filter: blur(var(--glass-blur-radius));
     outline: 3px solid transparent;
 
-    transition: 0.3s ease;
+    transition: 0.2s ease;
 }
 
 .character-checkbox:checked + .card-content {
