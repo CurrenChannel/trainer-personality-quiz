@@ -125,6 +125,13 @@ main {
     display: none;
 }
 
+.character-card:has(input[type="checkbox"]:disabled) {
+    filter: grayscale(100%);
+    opacity: 0.4;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
 .character-checkbox {
     position: absolute;
     opacity: 0;
@@ -184,4 +191,33 @@ main {
 footer {
     background: none;
     backdrop-filter: blur(var(--glass-blur-radius));
+}
+
+#submit {
+    position: fixed;
+    bottom: 5dvh;
+    right: 5vw;
+
+    background-color: #5fad50;
+    border: 1px solid var(--color-background-dark);
+
+    font-size: 1.15rem;
+    
+    padding: 15px;
+    border-radius: 2rem;
+    
+    transition: 0.2s ease;
+}
+
+#submit:hover {
+    background-color: #84c75e;
+    transform: scale(1.02);
+}
+
+#submit:active {
+    transform: scale(0.98);
+}
+
+#submit.hidden {
+    display: none;
 }

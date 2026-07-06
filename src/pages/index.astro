@@ -32,20 +32,64 @@ const basePath = import.meta.env.BASE_URL;
 		}
 	</div>
 
+	<button id="submit" class="hidden">
+		Submit - 0 selected
+	</button>
+
 	<script>
-		const searchbar = document.getElementById("search") as HTMLInputElement;
+		// Global
 		const cardList = document.querySelectorAll(".character-card")  as NodeListOf<HTMLElement>;
 
+		// Search
+		const searchbar = document.getElementById("search") as HTMLInputElement;
+
 		searchbar?.addEventListener('input', () => {
+
 			let search = searchbar.value.toLowerCase().replace(/[^a-z0-9]/g, '');
+
 			cardList.forEach((card) => {
 				if (card.dataset.name!.includes(search) ||
-			card.dataset.search!.includes(search)) {
+					card.dataset.search!.includes(search)) {
 					card.classList.remove("hidden");
 				} else {
 					card.classList.add("hidden");
 				}
 			});
 		});
+
+		// Submit
+		const cardGrid = document.querySelector(".character-grid") as HTMLElement;
+		const submit = document.getElementById("submit") as HTMLElement;
+
+		const MAX_SELECTIONS = 10;
+
+		cardGrid.addEventListener('change', () => {
+
+			const allCheckboxes = document.querySelectorAll('.character-checkbox') as NodeListOf<HTMLInputElement>;
+			const checkedCount = document.querySelectorAll('.character-checkbox:checked').length;
+
+			// Update selected count
+			submit.textContent = "Submit - " + checkedCount + " selected";
+			if (checkedCount > 0) {
+				submit.classList.remove("hidden");
+			} else {
+				submit.classList.add("hidden");
+			}
+
+			// Lock if past max selections
+			if (checkedCount >= MAX_SELECTIONS) {
+				allCheckboxes.forEach(box => {
+					if (!box.checked) {
+						box.disabled = true;
+					}
+				});
+			} 
+			else {
+				allCheckboxes.forEach(box => {
+					box.disabled = false;
+				});
+			}
+		});
+
 	</script>
 </MainLayout>
