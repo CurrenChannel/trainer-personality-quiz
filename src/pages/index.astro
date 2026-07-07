@@ -2,10 +2,12 @@
 import MainLayout from "../layouts/MainLayout.astro"
 import data from "../data/data.json"
 
-const basePath = import.meta.env.BASE_URL;
+const baseURL = import.meta.env.BASE_URL;
 ---
 
 <MainLayout title="Trainer Personality Test">
+	<div id="url" data-url={ baseURL }></div>
+
 	<h1 class="title">Trainer Personality Test</h1>
 	<p>This test determines that kind of trainer you are based on what your favorite Umamusume are. You can select up to 10 favorite Umamusume.</p>
 	<div class="toolbar">
@@ -24,7 +26,7 @@ const basePath = import.meta.env.BASE_URL;
 					<input type="checkbox" name={uma.id} id={uma.id} value={index} class="character-checkbox">
 
 					<div class="card-content">
-						<img src=`${basePath}/images/characters/x150/${uma.id}.png` alt={uma.name} loading="lazy" class="character-img" draggable="false">
+						<img src=`${baseURL}/images/characters/x150/${uma.id}.png` alt={uma.name} loading="lazy" class="character-img" draggable="false">
 						<p class="character-name">{uma.name}</p>
 					</div>
 				</label>
@@ -38,6 +40,7 @@ const basePath = import.meta.env.BASE_URL;
 
 	<script>
 		// Global
+		const baseURL = document.getElementById("url")?.dataset.url;
 		const cardList = document.querySelectorAll(".character-card")  as NodeListOf<HTMLElement>;
 		const allCheckboxes = document.querySelectorAll('.character-checkbox') as NodeListOf<HTMLInputElement>;
 
@@ -69,7 +72,7 @@ const basePath = import.meta.env.BASE_URL;
 					.filter(box => box.checked)
 					.map(box => Number(box.value));
 			const payload = encodeSelection(selected);
-			window.location.href = `result?s=${payload}`;
+			window.location.href = `${baseURL}/result?s=${payload}`;
 		});
 
 		cardGrid.addEventListener('change', () => {
