@@ -5,6 +5,8 @@ import "../styles/layout.css";
 import background from "../assets/backgrounds/Bakunetsu.png";
 
 let {title} = Astro.props;
+const baseURL = import.meta.env.BASE_URL;
+
 ---
 
 <html lang="en">
@@ -21,10 +23,12 @@ let {title} = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://curren.channel/">
-        <meta property="og:title" content="Curren Channel">
-        <meta property="og:description" content="Curren Channel website dayo">
-        <meta property="og:image" content="https://curren.channel/embed/embed-pic.png">
+        <meta property="og:url" content={ baseURL }>
+        <meta property="og:title" content="Take the Trainer Personality Test!">
+        <meta property="og:description" content="This test determines that kind of trainer you are based on what your favorite Umamusume are. You can select up to 10 favorite Umamusume.">
+        <meta property="og:image" content={ baseURL + "/preview.png" }>
+
+		<meta name="twitter:card" content="summary_large_image" />
 
 		<title>{title}</title>
 	</head>
