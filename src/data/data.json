@@ -519,7 +519,7 @@
 	{
 		"id": "mihonobourbon",
 		"name": "Mihono Bourbon",
-		"search_names": "",
+		"search_names": "clanker",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
@@ -1095,7 +1095,7 @@
 	{
 		"id": "marveloussunday",
 		"name": "Marvelous Sunday",
-		"search_names": "",
+		"search_names": "marvey",
 		"sex": "stallion",
 		"running_style": 0,
 		"distances": [
