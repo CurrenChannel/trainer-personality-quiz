@@ -35,7 +35,7 @@ const baseURL = import.meta.env.BASE_URL;
 	<body>
 		<div id="url" data-url={ baseURL }></div>
 
-		<Image src={ background } alt="Bakunetsu My Soul background" id="background" draggable="false" />
+		<Image src={ background } alt="Bakunetsu My Soul background" loading="eager" fetchpriority="high" id="background" draggable="false" />
 
         <a href="/" class="btn btn-secondary btn-back">Back</a>
         <main>
