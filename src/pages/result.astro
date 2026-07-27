@@ -1,0 +1,155 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+---
+
+<MainLayout>
+    <h1 class="result-title"></h1>
+
+    <div id="result-container"></div>
+
+    <template id="result-group-template">
+        <div class="result-group">
+            <h3 class="result-group-title"></h3>
+            <p class="result-group-desc"></p>
+            <div class="result-line-grid"></div>
+        </div>
+    </template>
+
+    <template id="result-line-template">
+        <span class="result-line-label"></span>
+        <div class="result-bar-track">
+            <div class="result-bar"></div>
+        </div>
+        <span class="result-value"></span>
+    </template>
+
+    <script>
+        import data from "../data/data.json";
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const payload = urlParams.get("s");
+
+        const baseURL = document.getElementById("url")?.dataset.url;
+
+        enum RunningStyle {
+            Runner = 0,
+            Leader = 1,
+            Betweener = 2,
+            Chaser = 3,
+        }
+
+        interface ParsedResults {
+            running_style: Record<RunningStyle, number>;
+        }
+
+        function decodeSelection(base64UrlString: string): number[] {
+            if (!base64UrlString) return [];
+
+            let base64 = base64UrlString.replace(/-/g, "+").replace(/_/g, "/");
+            while (base64.length % 4) {
+                base64 += "=";
+            }
+
+            const binaryStr = atob(base64);
+            const selectedIndices: number[] = [];
+
+            for (let i = 0; i < binaryStr.length; i++) {
+                selectedIndices.push(binaryStr.charCodeAt(i) + 1000);
+            }
+
+            return selectedIndices;
+        }
+
+        function parseResult(indexList: number[]): ParsedResults {
+            const styleObj: Record<RunningStyle, number> = {
+                [RunningStyle.Runner]: 0,
+                [RunningStyle.Leader]: 0,
+                [RunningStyle.Betweener]: 0,
+                [RunningStyle.Chaser]: 0,
+            };
+
+            indexList.forEach((index) => {
+                const character = data.find(uma => uma.id === index);
+
+                if (!character) {
+                    throw new Error(`Character data not found for index: ${index}`);
+                }
+
+                const style = character.running_style as RunningStyle;
+
+                styleObj[style] = (styleObj[style] || 0) + 1;
+            });
+            return {
+                running_style: styleObj,
+            };
+        }
+
+        function displayResult(resultObj: ParsedResults) {
+            const container = document.getElementById("result-container");
+
+            const runningStyleGroup = makeGroup("Running Styles", "").querySelector(".result-group") as HTMLElement;
+            const runningStyleGrid = runningStyleGroup.querySelector(".result-line-grid") as HTMLElement;
+            const runningStyleTotal = Object.values(resultObj.running_style).reduce((acc, curr) => acc + curr, 0);
+
+            const runningStyleColors = ["#74b0eb", "#abda30", "#ffdf31", "#f5ad3e"];
+
+            Object.entries(resultObj.running_style).forEach(
+                ([styleKey, value]) => {
+                    const numericKey = Number(styleKey);
+
+                    const styleName = RunningStyle[numericKey];
+
+                    const line = makeLine(styleName, value, runningStyleTotal, runningStyleColors[numericKey]);
+                    runningStyleGrid.appendChild(line);
+                },
+            );
+
+            container?.appendChild(runningStyleGroup);
+        }
+
+        function makeGroup(title: string, desc: string): HTMLElement {
+            const template = document.getElementById("result-group-template") as HTMLTemplateElement;
+
+            const clone = template.content.cloneNode(true) as HTMLElement;
+
+            clone.querySelector('.result-group-title')!.textContent = title;
+            clone.querySelector('.result-group-desc')!.textContent = desc;
+
+            return clone;
+        }
+
+        function makeLine(label: string, value: number, max: number, color: string = "white"): HTMLElement {
+            const template = document.getElementById("result-line-template") as HTMLTemplateElement;
+
+            const clone = template.content.cloneNode(true) as HTMLElement;
+
+            clone.querySelector('.result-line-label')!.textContent = label;
+
+            const bar = clone.querySelector('.result-bar') as HTMLElement;
+            bar.style.width = value / max * 100 + "%";
+            bar.style.backgroundColor = color;
+
+            const valueField = clone.querySelector('.result-value') as HTMLElement;
+            valueField.textContent = String(value);
+
+            return clone;
+        }
+
+        // Run
+
+        if (!payload || payload == null) {
+            window.location.replace(baseURL!);
+        }
+        else {
+            try {
+                const selection = decodeSelection(payload);
+                const result = parseResult(selection);
+                displayResult(result);
+            } catch (e) {
+                window.location.replace(baseURL!);
+            }
+        }
+
+
+    </script>
+</MainLayout>
