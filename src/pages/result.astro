@@ -3,7 +3,8 @@ import MainLayout from "../layouts/MainLayout.astro";
 ---
 
 <MainLayout>
-    <h1 class="result-title"></h1>
+    <h1 id="result-title"></h1>
+    <p id="result-desc"></p>
 
     <div id="result-container"></div>
 
@@ -39,7 +40,16 @@ import MainLayout from "../layouts/MainLayout.astro";
         }
 
         interface ParsedResults {
+            terrain: Record<string, number>;
+            distances: Record<string, number>;
             running_style: Record<RunningStyle, number>;
+            tags: Record<string, number>;
+        }
+
+        interface ChartItem {
+            label: string;
+            value: number;
+            color: string;
         }
 
         function decodeSelection(base64UrlString: string): number[] {
@@ -61,12 +71,27 @@ import MainLayout from "../layouts/MainLayout.astro";
         }
 
         function parseResult(indexList: number[]): ParsedResults {
+
+            const terrainObj: Record<string, number> = {
+                "turf": 0,
+                "dirt": 0,
+            };
+
+            const distanceObj: Record<string, number> = {
+                "short": 0,
+                "mile": 0,
+                "medium": 0,
+                "long": 0,
+            };
+
             const styleObj: Record<RunningStyle, number> = {
                 [RunningStyle.Runner]: 0,
                 [RunningStyle.Leader]: 0,
                 [RunningStyle.Betweener]: 0,
                 [RunningStyle.Chaser]: 0,
             };
+
+            const tagsObj: Record<string, number> = {};
 
             indexList.forEach((index) => {
                 const character = data.find(uma => uma.id === index);
@@ -75,47 +100,91 @@ import MainLayout from "../layouts/MainLayout.astro";
                     throw new Error(`Character data not found for index: ${index}`);
                 }
 
+                const count = (acc: Record<string, number>, item: string) => {
+                    acc[item] = (acc[item] ?? 0) + 1;
+                    return acc;
+                };
+
+                character.terrain.reduce(count, terrainObj);
+
+                character.distances.reduce(count, distanceObj);
+
+                character.tags.reduce(count, tagsObj);
+
+
                 const style = character.running_style as RunningStyle;
 
                 styleObj[style] = (styleObj[style] || 0) + 1;
             });
             return {
+                terrain: terrainObj,
+                distances: distanceObj,
                 running_style: styleObj,
+                tags: tagsObj,
             };
         }
 
         function displayResult(resultObj: ParsedResults) {
             const container = document.getElementById("result-container");
 
-            const runningStyleGroup = makeGroup("Running Styles", "").querySelector(".result-group") as HTMLElement;
-            const runningStyleGrid = runningStyleGroup.querySelector(".result-line-grid") as HTMLElement;
-            const runningStyleTotal = Object.values(resultObj.running_style).reduce((acc, curr) => acc + curr, 0);
+            // Terrain
+            const terrainColors = ["#5dc715", "#986b42"];
+            const terrainData = Object.entries(resultObj.terrain).map(([key, value], index) => ({
+                label: key,
+                value: value,
+                color: terrainColors[index]
+            }));
+            container?.appendChild(makeGroup("Terrain", "", terrainData));
 
+            // Distances
+            const distanceColors = ["#ff71b0", "#bbe75d", "#ffb900", "#3470ba"];
+            const distanceData = Object.entries(resultObj.distances).map(([key, value], index) => ({
+                label: key,
+                value: value,
+                color: distanceColors[index]
+            }));
+            container?.appendChild(makeGroup("Distances", "", distanceData));
+
+            // Running Styles
             const runningStyleColors = ["#74b0eb", "#abda30", "#ffdf31", "#f5ad3e"];
+            const runningStyleData = Object.entries(resultObj.running_style).map(([key, value]) => {
+                const numericKey = Number(key);
+                return {
+                    label: RunningStyle[numericKey], 
+                    value: value,
+                    color: runningStyleColors[numericKey] 
+                };
+            });
+            container?.appendChild(makeGroup("Running Styles", "", runningStyleData));
 
-            Object.entries(resultObj.running_style).forEach(
-                ([styleKey, value]) => {
-                    const numericKey = Number(styleKey);
-
-                    const styleName = RunningStyle[numericKey];
-
-                    const line = makeLine(styleName, value, runningStyleTotal, runningStyleColors[numericKey]);
-                    runningStyleGrid.appendChild(line);
-                },
-            );
-
-            container?.appendChild(runningStyleGroup);
+            // Tags
+            const tagColors = ["#44b5f5", "#ff9a55", "#b464ff", "#ff6b8b", "#3dcc9c"];
+            const tagData = Object.entries(resultObj.tags).map(([key, value], index) => ({
+                label: key,
+                value: value,
+                color: tagColors[index % tagColors.length]
+            }));
+            container?.appendChild(makeGroup("Tags", "", tagData));
         }
 
-        function makeGroup(title: string, desc: string): HTMLElement {
+        function makeGroup(title: string, desc: string, items: ChartItem[]): HTMLElement {
             const template = document.getElementById("result-group-template") as HTMLTemplateElement;
-
-            const clone = template.content.cloneNode(true) as HTMLElement;
+            
+            const clone = template.content.cloneNode(true) as DocumentFragment;
 
             clone.querySelector('.result-group-title')!.textContent = title;
             clone.querySelector('.result-group-desc')!.textContent = desc;
 
-            return clone;
+            const grid = clone.querySelector(".result-line-grid") as HTMLElement;
+            
+            const total = items.reduce((acc, curr) => acc + curr.value, 0);
+
+            items.forEach(item => {
+                const line = makeLine(item.label, item.value, total, item.color);
+                grid.appendChild(line);
+            });
+
+            return clone.querySelector(".result-group") as HTMLElement;
         }
 
         function makeLine(label: string, value: number, max: number, color: string = "white"): HTMLElement {
