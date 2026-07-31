@@ -116,11 +116,16 @@ import MainLayout from "../layouts/MainLayout.astro";
 
                 styleObj[style] = (styleObj[style] || 0) + 1;
             });
+
+            const sortedTagsObj = Object.fromEntries(Object.entries(tagsObj).sort((a, b) => {
+                return b[1] - a[1];
+            }));
+
             return {
                 terrain: terrainObj,
                 distances: distanceObj,
                 running_style: styleObj,
-                tags: tagsObj,
+                tags: sortedTagsObj,
             };
         }
 
